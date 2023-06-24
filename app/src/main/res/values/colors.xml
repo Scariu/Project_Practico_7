@@ -2,5 +2,4 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <verde name="verdeSemiOscuro">#8C7B26</verde>
 </resources>

@@ -7,14 +7,15 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
-        android:text="Button"
+        android:id="@+id/buttonCalendar"
+        style="@style/buttonStyleBrown"
+        android:text="Abrir Calendario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.866"
-        style="@style/buttonStyleBrown" />
+        app:layout_constraintVertical_bias="0.384" />
 
     <Switch
         android:id="@+id/switchDay"
@@ -28,20 +29,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.038" />
 
-    <CalendarView
-        android:id="@+id/calendar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:backgroundTint="#8C7B26"
-        app:todayBackgroundColor="@android:color/black"
-        />
-
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewFecha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
