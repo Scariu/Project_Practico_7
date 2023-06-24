@@ -18,7 +18,7 @@
         app:layout_constraintVertical_bias="0.385" />
 
     <Switch
-        android:id="@+id/switchDay"
+        android:id="@+id/switchDayNight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Day"

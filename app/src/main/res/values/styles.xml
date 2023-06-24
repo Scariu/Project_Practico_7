@@ -8,14 +8,13 @@
         <item name="android:textSize">20sp</item>
     </style>
 
-    <style name="DayTheme" parent= "Theme.Material3.DayNight.NoActionBar">
-    <item name = "android:backgroundTint">@color/yellow</item>
+    <style name="DayTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:backgroundTint">@color/yellow</item>
 
-</style>
+    </style>
 
-
-    <style name="NightTheme" parent= "Theme.Material3.DayNight.NoActionBar">
-        <item name = "android:backgroundTint">@color/negro_azul</item>
+    <style name="NightTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:backgroundTint">@color/negro_azul</item>
 
 
     </style>
