@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="buttonStyleBrown">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:backgroundTint">#734B02</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
