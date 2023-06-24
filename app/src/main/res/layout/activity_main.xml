@@ -9,13 +9,13 @@
     <Button
         android:id="@+id/buttonCalendar"
         style="@style/buttonStyleBrown"
-        android:text="Abrir Calendario"
+        android:text="Set Date"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.384" />
+        app:layout_constraintVertical_bias="0.865" />
 
     <Switch
         android:id="@+id/switchDay"
@@ -33,12 +33,12 @@
         android:id="@+id/textViewFecha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.088" />
+        app:layout_constraintVertical_bias="0.038" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

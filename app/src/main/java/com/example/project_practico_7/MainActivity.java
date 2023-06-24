@@ -40,7 +40,7 @@ TextView textFecha;
         DatePickerDialog datePicker = new DatePickerDialog(MainActivity.this, new DatePickerDialog.OnDateSetListener() {
             @Override
             public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-                String fecha = dayOfMonth + "/" + month + "/" + year;
+                String fecha = "Date " + dayOfMonth + "/" + month + "/" + year;
                 textFecha.setText(fecha);
             }
         },year,month,day);
