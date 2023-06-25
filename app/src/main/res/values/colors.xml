@@ -5,8 +5,11 @@
     <color name="green">#FAED7D</color>
     <color name="yellow">#F4BA4E</color>
     <color name="negro_azul">#060126</color>
-    <color name="purple">#673AB7</color>
+    <color name="purple">#460273</color>
     <color name="dark_gray">#424149</color>
     <color name="light_gray">#98979F</color>
     <color name="pink_purple">#C682D9</color>
+    <color name="light_brown">#D9AF8B</color>
+    <color name="brown">#593E25</color>
+    <color name="lighter_brown">#F2CEAE</color>
 </resources>

@@ -4,18 +4,16 @@
     <style name="buttonStyleBrown">
         <item name="android:layout_width">250dp</item>
         <item name="android:layout_height">60dp</item>
-        <item name="android:backgroundTint">#734B02</item>
+        <item name="android:backgroundTint">@color/brown</item>
         <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 
-    <style name="DayTheme" parent="Theme.Material3.Light.NoActionBar">
-        <item name="android:backgroundTint">@color/yellow</item>
-
-    </style>
-
-    <style name="NightTheme" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:backgroundTint">@color/negro_azul</item>
-
-
+    <style name="buttonStyleNight">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:backgroundTint">@color/purple</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 </resources>
