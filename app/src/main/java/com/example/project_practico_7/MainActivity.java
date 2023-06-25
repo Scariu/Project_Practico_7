@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     private void initListeners() {
         Button botonCalendario = findViewById(R.id.buttonCalendar);
         Switch switchNight = findViewById(R.id.switchNight);
-
+        Button botonUrl = findViewById(R.id.buttonUrl);
         botonCalendario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,7 +49,13 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
+        botonUrl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent implicitIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://https://www.google.com/"));
+                startActivity(implicitIntent);
+            }
+        });
 
     }
 
