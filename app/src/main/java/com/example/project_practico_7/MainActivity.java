@@ -29,11 +29,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initListeners();
-        onCreate();
         videoConfig();
-
-    }
-    public void onCreate() {
         Toast.makeText(getBaseContext(), "Hola Don Felipes!", Toast.LENGTH_SHORT).show();
     }
 
@@ -87,14 +83,6 @@ public class MainActivity extends AppCompatActivity {
         datePicker.show();
 
     }
-
-    //Genera archivo de preferencias(almacena)
-   /* public void createSharedPreferences(){
-        SharedPreferences preferences = getSharedPreferences("datePref", Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = preferences.edit();
-        editor.putString("fecha", te);
-    }*/
-
     public void setDayNight(int mode){
         if(mode==0){
             getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);
