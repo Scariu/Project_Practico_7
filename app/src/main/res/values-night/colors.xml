@@ -7,5 +7,4 @@
     <color name="pink_purple">#C682D9</color>
     <color name="white">#FFFFFFFF</color>
     <color name="button_background">@color/purple</color>
-    <color name="button_text">@color/white</color>
 </resources>

@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         Button botonCalendario = findViewById(R.id.buttonCalendar);
         Switch switchNight = findViewById(R.id.switchNight);
         Button botonUrl = findViewById(R.id.buttonUrl);
+        ImageView imgCamello= findViewById(R.id.imageCamel);
         botonCalendario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -10,13 +10,14 @@
 
     <Button
         android:id="@+id/buttonCalendar"
-        style="@style/buttonStyleBrown"
+        style="@style/buttonStyle"
         android:layout_height="wrap_content"
         android:text="Set Date"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageCamel"
+        android:backgroundTint="@color/button_background"
         app:layout_constraintVertical_bias="0.223" />
 
     <Switch
@@ -68,18 +69,17 @@
 
     <Button
         android:id="@+id/buttonUrl"
-        style="@style/buttonStyleBrown"
+        style="@style/buttonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/button_background"
         android:text="Google"
-        android:theme="@style/Theme.Material3.DayNight.NoActionBar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/buttonCalendar"
         app:layout_constraintHorizontal_bias="0.89"
         app:layout_constraintStart_toStartOf="@+id/buttonCalendar"
         app:layout_constraintTop_toBottomOf="@+id/buttonCalendar"
-        app:layout_constraintVertical_bias="0.434" />
+        app:layout_constraintVertical_bias="0.434"
+        android:backgroundTint="@color/button_background"/>
 
     <ImageView
         android:id="@+id/imageCamel"

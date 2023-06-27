@@ -3,6 +3,5 @@
     <style name="Base.Theme.Project_Practico_7" parent="Theme.Material3.Dark">
         <item name="android:background">@color/negro_azul</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:buttonTint">@color/white</item>
     </style>
 </resources>

@@ -13,6 +13,4 @@
     <color name="light_gray">#98979F</color>
     <color name="pink_purple">#C682D9</color>
     <color name="button_background">@color/brown</color>
-    <color name="button_text">@color/white</color>
-
 </resources>
