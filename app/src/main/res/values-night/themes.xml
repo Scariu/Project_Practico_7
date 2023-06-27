@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Modo Noche -->
-    <style name="Base.Theme.Project_Practico_7" parent="Theme.Material3.Dark">
+    <style name="Base.Theme.Project_Practico_7" parent="Theme.Material3.Dark.NoActionBar">
         <item name="android:background">@color/negro_azul</item>
         <item name="android:textColor">@color/cream</item>
     </style>

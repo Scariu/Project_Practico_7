@@ -31,7 +31,7 @@
         app:layout_constraintBottom_toTopOf="@+id/imageCamel"
         app:layout_constraintEnd_toStartOf="@+id/imageMoon"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <TextView
@@ -96,19 +96,18 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.171"
+        app:layout_constraintVertical_bias="0.199"
         app:srcCompat="@drawable/camel" />
 
     <VideoView
         android:id="@+id/videoView"
-        android:layout_width="457dp"
-        android:layout_height="218dp"
+        android:layout_width="371dp"
+        android:layout_height="164dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="52dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/buttonUrl"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="@+id/buttonUrl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonUrl"
         app:layout_constraintVertical_bias="0.0" />
 
