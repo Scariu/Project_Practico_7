@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import android.app.DatePickerDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -85,6 +87,13 @@ public class MainActivity extends AppCompatActivity {
         datePicker.show();
 
     }
+
+    //Genera archivo de preferencias(almacena)
+   /* public void createSharedPreferences(){
+        SharedPreferences preferences = getSharedPreferences("datePref", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putString("fecha", te);
+    }*/
 
     public void setDayNight(int mode){
         if(mode==0){

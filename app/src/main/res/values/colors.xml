@@ -12,6 +12,7 @@
     <color name="light_gray">#98979F</color>
     <color name="pink_purple">#C682D9</color>
     <color name="cream">#F1E2B1</color>
-    <color name="button_background">@color/brown</color>
-    <color name="button_textColor">@color/white</color>
+    <color name="blue_light">#254A59</color>
+    <!--  <color name="button_background">@color/brown</color>
+    <color name="button_textColor">@color/white</color>-->
 </resources>

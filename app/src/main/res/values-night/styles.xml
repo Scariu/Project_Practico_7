@@ -3,8 +3,8 @@
     <style name="buttonStyle">
         <item name="android:layout_width">250dp</item>
         <item name="android:layout_height">60dp</item>
-        <item name="android:backgroundTint">@color/brown</item>
-        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">#254A59</item>
+        <item name="android:textColor">@color/cream</item>
         <item name="android:textSize">20sp</item>
     </style>
 </resources>
