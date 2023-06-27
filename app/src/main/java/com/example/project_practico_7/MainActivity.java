@@ -11,9 +11,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.ImageView;
+import android.widget.MediaController;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.VideoView;
 
 import java.util.Calendar;
 
@@ -26,16 +28,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initListeners();
         onCreate();
+        videoConfig();
+
     }
     public void onCreate() {
-    Toast.makeText(getBaseContext(), "Hola Don Felipes!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getBaseContext(), "Hola Don Felipes!", Toast.LENGTH_SHORT).show();
     }
 
     private void initListeners() {
         Button botonCalendario = findViewById(R.id.buttonCalendar);
         Switch switchNight = findViewById(R.id.switchNight);
         Button botonUrl = findViewById(R.id.buttonUrl);
-        ImageView imgCamello= findViewById(R.id.imageCamel);
+
         botonCalendario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -62,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(implicitIntent);
             }
         });
-
     }
 
     public void abrirCalendario(){
@@ -90,5 +93,14 @@ public class MainActivity extends AppCompatActivity {
         else{
             getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         }
+    }
+
+    public void videoConfig() {
+        VideoView video = findViewById(R.id.videoView);
+        Uri path = Uri.parse("android.resource://com.example.project_practico_7/" + R.raw.video);
+        video.setVideoURI(path);
+        video.setMediaController(new MediaController(this));
+        video.start();
+        video.requestFocus();
     }
 }
