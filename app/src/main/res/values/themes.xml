@@ -1,10 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Light" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:background">@color/lighter_brown</item>
-        <item name="colorPrimary">@color/brown</item>
-        <item name="colorPrimaryDark">@color/light_brown</item>
-        <item name="colorAccent">@color/brown</item>
-        <item name="android:textColor">@color/brown</item>
-    </style>
-</resources>
+        <!-- Modo Día -->
+        <style name="Base.Theme.Project_Practico_7" parent="Theme.Material3.DayNight.NoActionBar">
+            <item name="android:background">@color/lighter_brown</item>
+            <item name="android:textColor">@color/brown</item>
+        </style>
+    </resources>
+

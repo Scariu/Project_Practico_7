@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="negro_azul">#060126</color>
+    <color name="purple">#460273</color>
+    <color name="dark_gray">#424149</color>
+    <color name="light_gray">#98979F</color>
+    <color name="pink_purple">#C682D9</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_background">@color/purple</color>
+    <color name="button_text">@color/white</color>
+</resources>

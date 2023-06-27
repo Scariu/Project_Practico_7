@@ -1,10 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Light.Night" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Modo Noche -->
+    <style name="Base.Theme.Project_Practico_7" parent="Theme.Material3.Dark">
         <item name="android:background">@color/negro_azul</item>
-        <item name="colorPrimary">@color/negro_azul</item>
-        <item name="colorPrimaryDark">@color/purple</item>
-        <item name="colorAccent">@color/pink_purple</item>
         <item name="android:textColor">@color/white</item>
+        <item name="android:buttonTint">@color/white</item>
     </style>
 </resources>
