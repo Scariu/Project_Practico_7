@@ -100,7 +100,6 @@ public class MainActivity extends AppCompatActivity {
         Uri path = Uri.parse("android.resource://com.example.project_practico_7/" + R.raw.video);
         video.setVideoURI(path);
         video.setMediaController(new MediaController(this));
-        video.start();
         video.requestFocus();
     }
 }
