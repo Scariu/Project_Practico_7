@@ -12,38 +12,42 @@
         android:id="@+id/buttonCalendar"
         style="@style/buttonStyle"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="168dp"
+        android:backgroundTint="@color/button_background"
         android:text="Set Date"
+        android:textColor="@color/button_textColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageCamel"
-        android:backgroundTint="@color/button_background"
-        app:layout_constraintVertical_bias="0.223" />
+        app:layout_constraintVertical_bias="0.113" />
 
     <Switch
         android:id="@+id/switchNight"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageCamel"
         app:layout_constraintEnd_toStartOf="@+id/imageMoon"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <TextView
         android:id="@+id/textViewFecha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
         android:text="DATE"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/imageCamel"
         app:layout_constraintEnd_toStartOf="@+id/imageSun"
-        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.666" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageSun"
@@ -72,23 +76,25 @@
         style="@style/buttonStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_background"
         android:text="Google"
+        android:textColor="@color/button_textColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/buttonCalendar"
-        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/buttonCalendar"
         app:layout_constraintTop_toBottomOf="@+id/buttonCalendar"
-        app:layout_constraintVertical_bias="0.434"
-        android:backgroundTint="@color/button_background"/>
+        app:layout_constraintVertical_bias="0.123" />
 
     <ImageView
         android:id="@+id/imageCamel"
-        android:layout_width="307dp"
-        android:layout_height="396dp"
+        android:layout_width="286dp"
+        android:layout_height="194dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242"
-        app:srcCompat="@drawable/camel"
-        tools:layout_editor_absoluteX="68dp" />
+        app:layout_constraintVertical_bias="0.237"
+        app:srcCompat="@drawable/camel" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

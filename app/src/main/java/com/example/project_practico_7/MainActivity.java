@@ -25,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initListeners();
+        onCreate();
+    }
+    public void onCreate() {
+    Toast.makeText(getBaseContext(), "Hola Don Felipes!", Toast.LENGTH_SHORT).show();
     }
 
     private void initListeners() {
